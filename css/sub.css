@@ -1,0 +1,412 @@
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+
+@font-face { 
+  font-family:'nanumsquare'; 
+ src: url('../font/NanumSquareL.woff') format('woff'); 
+}
+
+
+
+html{font-size:100%;}
+
+body{-webkit-text-size-adjust:100%; background:#F6F1EB;}
+input{
+  appearance:none;
+  -webkit-apperance:none;
+}
+
+section{
+  width:100%;
+  margin-top:100px;
+}
+
+/* 서브페이지 제목 */
+.sub_title{
+  font-size:24px;
+	font-size:1.5rem;
+  font-family:'nanumsquare';
+  text-align: center;
+  padding:40px 0 20px 0;
+}
+.sub_title_text{
+  width:90%;
+  margin:0 auto;
+  /* font-size:16px;
+  font-size:1.000rem; */
+  font-size:14px;
+  font-size: 0.875rem;
+  color: #333;
+  text-align: center;
+  line-height: 24px;
+  margin-bottom:40px;
+}
+
+
+/* -------------- 조말론 런던의 가치 */
+
+.texbox1{
+  width: 100%;
+  height:auto;
+  overflow: hidden;
+}
+h3{
+  font-family:'nanumsquare';
+  font-size:20px;
+  font-size:1.250rem;
+  padding:25px 0 0 28px;
+  color: #333;
+}
+.texbox1 ul{
+  width:90%;
+  margin:0 auto;
+}
+.texbox1 ul li{}
+.texbox1 ul li p{
+  font-size:14px;
+  font-size: 0.875rem;
+  line-height:24px;
+  padding:20px 0;
+  letter-spacing:0.5px;
+}
+.texbox1 ul li img{width:100%;padding:20px 0;}
+.line{
+  display:block;
+  width:90%;
+  height:10px;
+  margin:20px auto;
+  border-bottom:1px solid #ccc;
+}
+
+.texbox2{
+  width: 100%;
+  height:auto;
+  overflow: hidden;
+}
+.texbox2 ul{
+  width:90%;
+  margin:0 auto;
+}
+.texbox2 ul li p{
+  font-size:14px;
+  font-size: 0.875rem;
+  line-height:24px;
+  padding:20px 0;
+  letter-spacing:0.5px;
+}
+.texbox2 ul li img{width:100%;padding:20px 0;}
+
+.texbox3{
+  width: 100%;
+  height:1700px;
+  overflow: hidden;
+}
+.texbox3 ul{
+  width:90%;
+  margin:0 auto;
+}
+.texbox3 ul li p{
+  font-size:14px;
+  font-size: 0.875rem;
+  line-height:24px;
+  padding:20px 0;
+  letter-spacing:0.5px;
+}
+.texbox3 ul li img{
+  width:100%;
+  padding:20px 0;
+
+}
+
+
+
+/* -------------- 신제품&새소식 */
+
+.newbox{
+  width:100%;
+
+}
+.newbox ul{
+  width:90%;
+  margin: 0 auto;
+}
+.newbox ul li{}
+.newbox ul li img{width:100%;margin: 30px 0;}
+.newbox ul li .new_title{
+  font-family: 'nanumsquare';
+  font-size:20px;
+  font-size: 1.250rem;
+  font-weight:bold;
+  display:inline-block;
+  padding:20px 0 20px 0px;
+}
+.newbox ul li>p{
+  font-size:13px;
+  font-size: 0.813rem;
+  line-height:20px;
+  letter-spacing:1px;
+}
+.newbox ul li>p:nth-child(3){
+  padding-top: 20px;
+  line-height:22px;
+}
+
+/* swiper플러그인 */
+.newbox .swiper-container{
+  width:100%;
+  height:auto;
+  margin: 0px auto 70px auto;
+  position: relative;
+  /* background: pink; */
+}
+.swiper-button-prev{
+  position: absolute;
+  left:30px;
+  background: url(../image/arrow_back.png) no-repeat ;
+  background-size: 30px;
+}
+.swiper-button-next{
+  position: absolute;
+  right:30px;
+  background: url(../image/arrow_forward.png) no-repeat ;
+  background-size: 30px;
+}
+/* .swiper-slide{width:100%;background: yellow; left:-60px;} */
+.newbox .swiper-slide img{width:100%;	max-width:100%;padding-top:30px;}
+
+.newbox .swiper-slide .tt{
+  font-family: 'nanumsquare';
+  font-size:14px;
+  font-size: 0.875rem;
+  color:#777;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin:20px 0;
+  /* background: yellow; */
+}
+.newbox .swiper-slide .t{ /* 글자위의 선 */
+  width: 60%;
+  display: inline-block;
+  padding: 5px 0;
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  /* background: red; */
+}
+.newbox .swiper-slide>p:nth-child(3){
+  display: inline-block;
+  width: 100%;
+  height:80px;/* background: yellow; */
+  text-align: center;
+  line-height:24px;
+}
+.newbox .swiper-slide{text-align: center;}
+
+
+.newbox2{
+  width:100%;
+}
+.newbox2 ul{
+  width:90%;
+  margin: 0 auto;
+}
+.newbox2 ul li video{width:100%;margin: 30px 0;height:800px;}
+.newbox1 ul li .new_title{
+  font-family: 'nanumsquare';
+  font-size:20px;
+  font-size: 1.250rem;
+  font-weight:bold;
+  display:inline-block;
+  padding:20px 0 20px 0px;
+}
+.newbox1 ul li>p{
+  font-size:13px;
+  font-size: 0.813rem;
+  line-height:20px;
+  letter-spacing:1px;
+}
+.newbox1 ul li>p:nth-child(3){
+  padding-top: 20px;
+  line-height:22px;
+}
+
+
+/* -------------- 센트 */
+.scent_gnb{
+  width: 95%;
+  height:70px;
+  margin:20px auto;
+}
+.scent_gnb ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.scent_gnb li{
+  padding: 8px;
+
+  font-size:13px;
+  font-size: 0.813rem;
+  color:#333;
+  background: rgb(230, 226, 226);
+  display: flex;
+  justify-content: space-between;
+}
+.scent_gnb li:hover a{color: rgb(207, 102, 40);}
+
+/* 센트 콘텐츠 */
+#scentbox1{
+  width: 100%; 
+  height: auto;
+  overflow: hidden;
+  /* background: pink; */
+}
+#scentbox1>img{width: 100%;} #scentbox2>img{width: 100%;} #scentbox3>img{width: 100%;}
+#scentbox4>img{width: 100%;} #scentbox5>img{width: 100%;} #scentbox6>img{width: 100%;}
+h4{
+  font-size:18px;
+  font-size:1.125rem;
+  font-family: 'nanumsquare';
+  /* background-color: bisque; */
+  padding:20px 0 10px 0;
+}
+.scent_text{
+  width: 90%;
+  margin: 0 auto;
+}
+.scent_text .scent_txt{
+  font-size:14px;
+  font-size: 0.875rem;
+  line-height:22px;
+  letter-spacing:1px;
+  color: #333;
+}
+
+/* swiper플러그인(25) */
+.gallery1 .swiper-container{
+  width:100%;
+  height:600px;
+  text-align: center;
+  margin-top: 20px;
+  /* background: yellow; */
+}
+.gallery1 .slide_conts{
+  
+  font-size: 16px;
+  font-size: 1.000rem;
+  line-height:30px;
+}
+.gallery1 .swiper-slide>img{width: 100%;max-width: 100%;}
+.gallery1 .slide_conts .txt{
+  display: block;
+
+}
+.gallery1 .swiper-wrapper p:nth-child(3){
+  font-weight: bold;
+  /* color:#fff; */
+  padding-top: 15px;
+}
+.gallery1 .swiper-pagination{
+  /* background-color: blue; */
+  padding-top: 20px;
+}
+
+
+.bbox{
+  position: relative;
+  top:0px;
+  width: 25%;
+  margin: 0 auto 80px auto;
+  text-align: center;
+  position: relative;
+  background-color:#333;
+  font-size: 16px;
+  font-size: 1.000rem;
+  padding: 10px 0;
+  color: #cecece;
+  cursor: pointer;
+}
+
+
+
+/* -------------- 코롱 */
+section>img{width: 100%;}
+.sub_gnb{
+  width: 95%;
+  margin: 30px auto 0px auto; /* background: pink; */
+}
+.sub_gnb>ul{
+  display: flex;
+  justify-content: space-between;
+}
+.sub_gnb>ul>li{
+  width:20%;
+  height:30px;
+  font-size:13px;
+  font-size: 0.813rem; 
+  font-weight:bold;
+  line-height:20px;
+}
+.sub_gnb>ul>li img{width:25%; cursor: pointer;}
+
+#subbox{
+  width: 100%;
+  max-width: 100%;
+}
+#subbox>ul{
+  width:95%;
+  margin:30px auto 70px auto;
+  text-align: center;
+  /* background: pink; */
+}
+#subbox>ul>li{padding-top:10px;}
+#subbox>ul>li img{width:100%;}
+#subbox>ul>li .co-tit{
+  font-family: 'nanumsquare';
+  font-size:14px;
+  font-size: 0.875rem;
+  color:#777;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin:20px 0;
+}
+#subbox>ul>li .co-t{
+  width: 60%;
+  display: inline-block;
+  padding: 5px 0;
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+}
+#subbox>ul>li>p{
+font-size:14px;
+font-size: 0.875rem;
+color:#333;
+font-weight:bold;
+line-height:35px;
+letter-spacing:1px;
+
+}
+#subbox>ul>li:nth-child(4){
+  font-size:13px;
+  font-size: 0.813rem;
+  color:#333;
+  margin-top:10px;
+}
+#subbox>ul>li .cc{
+  display:inline-block;
+  margin-top: 20px;
+  font-size:13px;
+  font-size: 0.813rem;
+  color:#333;
+  border:1px solid #444;
+  padding:8px 20px;
+  cursor: pointer;
+}
+#subbox>ul>li .cc:hover{
+  background: rgba(0,0,0,0.6);
+  color:#fff;
+}
+
+/* -------------- 배스앤바디 */

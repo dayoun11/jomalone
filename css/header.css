@@ -1,0 +1,121 @@
+/* ============ Header ============== */
+
+header{
+  width:100%;
+  height:80px;
+  background:#F6F1EB;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:1000;
+  box-shadow:0px 1.5px 3px rgba(0,0,0,0.2);
+}
+
+.nav_top{width:100%;}
+.nav_top .top_left{
+  position:absolute;
+  top:16px;
+  left:20px;
+}
+.nav_top .top_left img{width:45px;}
+
+/* //// 탑가운데 로고 */
+
+.nav_top h2{text-align:center;}
+.nav_top h2 img{width:33%;margin-top: 6px;}
+
+/* //// 탑오른쪽 아이콘 */
+
+.nav_top .top_right{
+  position:absolute;
+  top:23px;
+  right:10px;
+  text-align:right;
+  width:100px;
+  height:40px;
+  /* background: red; */
+}
+.nav_top .top_right li{
+  float:left;
+  margin-left:12px;
+}
+.nav_top .top_right li img{width:32px;}
+
+
+/* ------------모바일 메뉴(왼쪽) */
+
+.lgnb .lgnb_list{
+  position:fixed;
+  left:0;
+  top:0;
+  z-index:2000;
+  width:60%;
+  height:100%;
+  background:#f6f1eb;
+} 
+.lgnb .lgnb_list li{
+  height:60px;
+  line-height:80px;
+}
+.lgnb .lgnb_list li:first-child{margin-top:70px;}
+.lgnb .lgnb_list li a{
+  display:block;
+  font-family:'nanumsquare';
+  font-size:18px;
+  font-size:1.125rem;
+  font-weight:bold;
+  color:#333;
+  text-align:center;
+}
+.lgnb .lgnb_list li a:hover{color:gray;}
+
+.lgnb .lgnb_list li.close{
+  position:absolute;
+  right:20px;
+  top:20px;
+  cursor:pointer;
+}
+.lgnb .lgnb_list li.close img{width:40px;}
+.back{
+  display:none;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.7);
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:1500;
+}
+
+/* ------------모바일 메뉴(오른쪽) */
+
+.rgnb .rgnb_list{
+  position:fixed;
+  right:0;
+  top:0;
+  z-index:2000;
+  width:0%;
+  height:100%;
+  background:#f6f1eb;
+} 
+.rgnb .rgnb_list>li{
+  height:60px;
+  line-height:80px;
+}
+.rgnb .rgnb_list>li:first-child{margin:50px 0 150px 0;}
+.rgnb .rgnb_list li a{
+  display:block;
+  font-size:18px;
+  font-size:1.125rem;
+  font-weight:bold;
+  color:#333;
+  text-align:center;
+}
+.rgnb .rgnb_list li img{width:30px;}
+.rgnb .rgnb_list>li>ul>li{
+  height:30px;
+  font-size:14px;
+  font-size:0.875rem;
+  color:#333;
+  text-align:center;
+}
